@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sf_x_snc_quality_management_task">
+    <sf_x_snc_quality_management_task action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <automatic_condition/>
+        <automatic_roles/>
+        <automatic_script><![CDATA[// when cancelling a task, clean up part sourcing data and clear all dependencies
+var taskManager = new global.SMTask();
+taskManager.cancelTransfers(current);
+taskManager.clearDependencies(current);]]></automatic_script>
+        <automatic_string>current.state.changes()</automatic_string>
+        <business_rule display_value="Cancel Cleanup">d94f0fc213c97600a79f73304244b01d</business_rule>
+        <change_client_script/>
+        <client_script/>
+        <comment>Quality Management Request State flow</comment>
+        <derived_from display_value="Cancel Cleanup">e5feb353df312100dca6a5f59bf263e4</derived_from>
+        <end_text/>
+        <ending_state/>
+        <event/>
+        <event_rule/>
+        <mandatory_fields/>
+        <manual_condition/>
+        <manual_roles/>
+        <manual_script/>
+        <manual_string/>
+        <name>Cancel Cleanup</name>
+        <not_mandatory/>
+        <not_read_only/>
+        <not_visible/>
+        <number>SF0010026</number>
+        <override/>
+        <read_only_fields/>
+        <roles/>
+        <start_text>7</start_text>
+        <starting_state display_value="Annulé">c03fc7c213c97600a79f73304244b0cf</starting_state>
+        <sys_class_name>sf_x_snc_quality_management_task</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-21 19:18:54</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>d14f0fc213c97600a79f73304244b01d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cancel Cleanup</sys_name>
+        <sys_package display_value="Quality Management" source="x_snc_qms">c82fc34213c97600a79f73304244b0f9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Quality Management">c82fc34213c97600a79f73304244b0f9</sys_scope>
+        <sys_update_name>sf_x_snc_quality_management_task_d14f0fc213c97600a79f73304244b01d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-21 19:18:54</sys_updated_on>
+        <table>x_snc_quality_management_task</table>
+        <translated_ending_state/>
+        <translated_starting_state>Annulé</translated_starting_state>
+        <ui_action/>
+        <visible_fields/>
+        <work_notes/>
+        <work_notes_rule/>
+    </sf_x_snc_quality_management_task>
+</record_update>

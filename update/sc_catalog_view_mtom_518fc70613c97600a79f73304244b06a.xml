@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="Quality Management Catalog">898fc70613c97600a79f73304244b064</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-21 19:20:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>518fc70613c97600a79f73304244b06a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Quality Management Catalog.catalog_quality_management_catalog</sys_name>
+        <sys_package display_value="Quality Management" source="x_snc_qms">c82fc34213c97600a79f73304244b0f9</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_quality_management_catalog">dd8fc70613c97600a79f73304244b068</sys_portal_page>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Quality Management">c82fc34213c97600a79f73304244b0f9</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_518fc70613c97600a79f73304244b06a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-21 19:20:00</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>
