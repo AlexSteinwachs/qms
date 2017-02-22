@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="product_line" table="x_snc_qms_erp_invoice" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_line</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hilex Poly</label>
+            <language>en</language>
+            <name>x_snc_qms_erp_invoice</name>
+            <sequence>100</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-21 23:26:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7c78096138d7600a79f73304244b035</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-21 23:26:11</sys_updated_on>
+            <value>hilex_poly</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_line</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Duro Bag</label>
+            <language>en</language>
+            <name>x_snc_qms_erp_invoice</name>
+            <sequence>200</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-21 23:26:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>30e7c096138d7600a79f73304244b055</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-21 23:26:34</sys_updated_on>
+            <value>duro_bag</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_line</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bagcraft Packaging</label>
+            <language>en</language>
+            <name>x_snc_qms_erp_invoice</name>
+            <sequence>300</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-21 23:27:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7df78096138d7600a79f73304244b092</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-21 23:27:05</sys_updated_on>
+            <value>bagcraft_packaging</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_line</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fortune Plastics</label>
+            <language>en</language>
+            <name>x_snc_qms_erp_invoice</name>
+            <sequence>400</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-21 23:27:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ef7c096138d7600a79f73304244b062</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-21 23:27:26</sys_updated_on>
+            <value>fortune_plastics</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_line</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>De Luxe Packaging</label>
+            <language>en</language>
+            <name>x_snc_qms_erp_invoice</name>
+            <sequence>500</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-21 23:27:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aaf78096138d7600a79f73304244b095</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-21 23:27:48</sys_updated_on>
+            <value>de_luxe_packaging</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_line</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>International Converter</label>
+            <language>en</language>
+            <name>x_snc_qms_erp_invoice</name>
+            <sequence>600</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-21 23:28:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>73384896138d7600a79f73304244b07e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-21 23:28:24</sys_updated_on>
+            <value>international_converter</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_line</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Custom Film &amp; Bag</label>
+            <language>en</language>
+            <name>x_snc_qms_erp_invoice</name>
+            <sequence>700</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-21 23:29:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a8680896138d7600a79f73304244b053</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-21 23:29:11</sys_updated_on>
+            <value>custom</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product_line</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>General Packaging</label>
+            <language>en</language>
+            <name>x_snc_qms_erp_invoice</name>
+            <sequence>800</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-21 23:29:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5368c896138d7600a79f73304244b00d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-21 23:29:14</sys_updated_on>
+            <value>general</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>product_line</element>
+            <name>x_snc_qms_erp_invoice</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-02-21 23:26:11</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>67d74c56138d7600a79f73304244b0d8</sys_id>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_name>product_line</sys_name>
+            <sys_package display_value="Quality Management" source="x_snc_qms">c82fc34213c97600a79f73304244b0f9</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Quality Management">c82fc34213c97600a79f73304244b0f9</sys_scope>
+            <sys_update_name>sys_choice_x_snc_qms_erp_invoice_product_line</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-02-21 23:29:14</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

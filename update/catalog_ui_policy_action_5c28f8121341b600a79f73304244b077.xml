@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Certificate of Analysis ">f3841b0e13c97600a79f73304244b03a</catalog_item>
+        <catalog_variable>IO:2a25749e1301b600a79f73304244b064</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-22 02:57:13</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5c28f8121341b600a79f73304244b077</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>physical_test_info</sys_name>
+        <sys_package display_value="Quality Management" source="x_snc_qms">c82fc34213c97600a79f73304244b0f9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Quality Management">c82fc34213c97600a79f73304244b0f9</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_5c28f8121341b600a79f73304244b077</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-22 02:57:13</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show Physical Tests">34e7b4121341b600a79f73304244b0d8</ui_policy>
+        <variable>physical_test_info</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

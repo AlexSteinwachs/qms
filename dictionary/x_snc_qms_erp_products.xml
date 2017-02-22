@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="ERP Products" max_length="40" name="x_snc_qms_erp_products" type="collection">
+        <element label="Attributes" max_length="1000" name="attributes" type="string"/>
+        <element display="true" label="Name" max_length="32" name="name" type="string"/>
+        <element choice="1" label="Product Line" max_length="40" name="product_line" type="choice">
+            <choice>
+                <element label="Hilex Poly" sequence="100" value="Hilex Poly"/>
+                <element label="Duro Bag" sequence="200" value="duro_bag"/>
+                <element label="Bagcraft Packaging" sequence="300" value="bagcraft_packaging"/>
+                <element label="Fortune Plastics" sequence="400" value="fortune_plastics"/>
+                <element label="De Lux Packaging" sequence="500" value="de_lux_packaging"/>
+                <element label="Internaltional Converter" sequence="600" value="internaltional_converter"/>
+                <element label="Custom Film &amp; Bag" sequence="700" value="custom"/>
+                <element label="General Packaging" sequence="800" value="general_packaging"/>
+            </choice>
+        </element>
+    </element>
+</database>

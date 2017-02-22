@@ -29,7 +29,7 @@
         <read_only_fields/>
         <roles/>
         <start_text>10</start_text>
-        <starting_state display_value="Pendiente de asignación">1b2f87c213c97600a79f73304244b0cc</starting_state>
+        <starting_state display_value="Pending Assignment">1b2f87c213c97600a79f73304244b0cc</starting_state>
         <sys_class_name>sf_x_snc_quality_management_task</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-02-21 19:18:51</sys_created_on>

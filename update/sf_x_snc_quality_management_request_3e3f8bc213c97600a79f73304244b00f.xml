@@ -29,7 +29,7 @@
         <read_only_fields/>
         <roles/>
         <start_text>10</start_text>
-        <starting_state display_value="Prêt">212f07c213c97600a79f73304244b0ef</starting_state>
+        <starting_state display_value="Ready">212f07c213c97600a79f73304244b0ef</starting_state>
         <sys_class_name>sf_x_snc_quality_management_request</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-02-21 19:18:45</sys_created_on>

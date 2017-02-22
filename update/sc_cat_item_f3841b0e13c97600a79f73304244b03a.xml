@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_both</availability>
+        <billable>false</billable>
+        <category display_value="Default Category">9d8fc70613c97600a79f73304244b06c</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p style="font-size: 15.96px; margin: 0px 0px 10px;"><span style="font-size: small;"><strong>Certificate of Analysis (COA) </strong></span><br />A certificate of analysis (COA) is the supplier’s test results on the specific lot being provided to you. Before requiring a COA, determining the key characteristics that can fluctuate, past concerns, and compliance to specifications is essential to your product or process.</p>
+<p style="font-size: 15.96px; margin: 0px 0px 10px;">You may find that many of your raw materials, such as packaging materials and refined oils, may not need a COA, however, ensure that you are following any requirements outlined in customer or audit standards (such as Global Food Safety Initiative audits).</p>
+<p style="font-size: 15.96px; margin: 0px 0px 10px;">There may be upfront or hidden costs with requiring a COA. Ask suppliers what tests they routinely conduct or for a specified analysis if you are asking for this. There also may be costs for your receipt or review, for potentially holding the material while waiting for a result, and for an action plan if the results identify that the material does not meet your specifications.</p>
+<p style="font-size: 15.96px; margin: 0px 0px 10px;"><br /><span style="font-size: small;"><strong>Validation and Documentation </strong></span><br />The standards for validation and documentation are: <em>Prove it, scientifically</em> (validation) and <em>If it is not documented, it was not done</em> (documentation). These encompass the research information, meetings, and the team’s conclusions. For web searches, document dates, the name of the person who did the search, key words used, and the findings. Meeting documentation should capture dates, participants, the scope of the discussion, conclusions, and potential action plans.</p>
+<p style="font-size: 15.96px; margin: 0px 0px 10px;">A clear understanding of the materials being purchased is vital for suppliers and customers alike. Materials that do not meet your expectations can significantly reduce productivity, increase costs due to additional testing, rework, or destruction; and can place your product, company, customers, and consumers at risk for hazardous issues.</p>
+<p style="font-size: 15.96px; margin: 0px 0px 10px;">On the other hand, understanding the material and appropriate handling practices, as well as obtaining those that meet your expectations, increases productivity, decreases potential food safety risks, and is a key building block toward making a consistent, high-quality finished product.</p>]]></description>
+        <entitlement_script/>
+        <group/>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Certificate of Analysis </name>
+        <no_cart>false</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("./com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=f3841b0e13c97600a79f73304244b03a&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <roles>snc_internal,x_snc_qms_basic</roles>
+        <sc_catalogs>898fc70613c97600a79f73304244b064</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <short_description>Request a Certificate of Analysis Generation</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-21 19:42:37</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>f3841b0e13c97600a79f73304244b03a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Certificate of Analysis </sys_name>
+        <sys_package display_value="Quality Management" source="x_snc_qms">c82fc34213c97600a79f73304244b0f9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Quality Management">c82fc34213c97600a79f73304244b0f9</sys_scope>
+        <sys_update_name>sc_cat_item_f3841b0e13c97600a79f73304244b03a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-22 03:27:45</sys_updated_on>
+        <template/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=f3841b0e13c97600a79f73304244b03a"/>
+    <fx_price action="delete_multiple" query="id=f3841b0e13c97600a79f73304244b03a"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>f3841b0e13c97600a79f73304244b03a</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-21 19:42:37</sys_created_on>
+        <sys_id>6cb49b0e13c97600a79f73304244b001</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-21 19:42:37</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>f3841b0e13c97600a79f73304244b03a</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-21 19:42:37</sys_created_on>
+        <sys_id>a0b49b0e13c97600a79f73304244b003</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-21 19:42:37</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#0</average_image_color>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>icon</file_name>
+        <image_height>90</image_height>
+        <image_width>90</image_width>
+        <size_bytes>1966</size_bytes>
+        <size_compressed>1989</size_compressed>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-21 19:46:52</sys_created_on>
+        <sys_id>f2a59b4e13c97600a79f73304244b0a0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-21 19:46:52</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>f3841b0e13c97600a79f73304244b03a</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="f2a59b4e13c97600a79f73304244b0a0">f2a59b4e13c97600a79f73304244b0a0</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-21 19:46:52</sys_created_on>
+        <sys_id>36a59b4e13c97600a79f73304244b0a0</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>Aa4HUfiJUE5HDQoaCgAAAA1JSERSAAAAWgAAAFoIBgAAADioQQIAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAHUElEQVR42uycMY/qRhDHF3J9/BGM0qUJpEp3pkh9EKU/I6VJFfgEHH2kgyopInHXR4KUUQr8vkDOaVLm/D5BSB/pvZnT+GnesAs27No+2JFWvAcHtn+M/zszO4tS3rx58+bNmzdvVVirrgN//e13XXgIajp8+sevv2zPFjTARbBjGD/UCDm3BMYMgCdnBZo8eNMAwNLmAHvi+iCfXDhktK8++/zL4J+///z91Xs0gH6Ch654OoOxhvFfxWC/gDHQPN93KSNXFUAeaCBP4KLmNU/ES3FeU9JtJ9au4LpuNJo4r1Mr4PgpPAzF0xFN1q/To8FC8f+FxuMxCokcHX9LEoURRsZgZ3DstZCRriuvbtfgTRmDfA8PK4eQFU3AMYwnkgxuf1V13e26bl+46Ihi6qosIF2uxa5UfXZrSCJsyxaXri5+wVUlKU0BLbW7R5OU7TtnSdLhXIcbKR2GSMCFvdVIiLpY0OduHrQH7UF7O8Jae2brUBMZHGP3oqbQP/C8izCSRx0PMB4Nr2G59JRJOeMJmRE0wZ1SWhp4P7SX8rcY5Ji8zAO2BxyrlA8fQFNhZ+XZOLEhwF63qDT4rPHk7Yl6dYmmm9eQYwdT8LFBLvC5x9z1vR1M9ZHXxsBxjB79fCC6GNUB+6fsf1PUs/0+vEobBjkk6e2aohEE/U64uc67cQa9cww2oGgHV2SiApNySmHaGsBnNUIutPDc1pz8SPN3U6qCOQEM447miWWJ0LJLUdIzvH8DI6oB8sAAGRUg2ZsZkkz0ybu5xbiabXNdDeCMCfBUc7IZnSyuL85orA0TNEJG2Cu6M6qAHJNc7EAGhjvOqq1HY2EcPqiv+bbQi57xtVPKmgRDt4SFcBdF5AA+I5cZntnhcxG8NoL3rx1CljXu3IzNOMZaB4HsaTwIIaFnj4+EnGtaJAAPAU4HxryI5iJIGOg5HbpV+fmhZ8cuJj3qUYkNQcPkqKISpZB9umV3ahhw0FUZKSFP3ojZeU6Aj/JA/FIIuJS7pU3YpMe6RiA8Zv9QZHaweoddlzCGpJHSBuTdUQnI/IvBW9xK3xt8TkLenQrYg1PjY7ZaH2iCh0IdToXLpBTeDTWTJMaQGzyZA969U60DOFbjc/i8LXm2hB0eCTkiL9bJ5ANBLjRXlapHY85u0G1FJ6P1bvKqWHhyohwYg50xzV4e6cUbQ9KExaJRmR7r0oV/1G0YPYOU5N69omyJe3Nua9uebIDNQ6yoaJzNtHhsSJJ6x7S0Hb3CQlLSY54jtRvDwAFNSCGbOEYOEx+UiRXTbA5kWiCi2JAW67x4XkYqCsXRJWDjQTtwgneGC0nVx+XXBXmbC/sQzaBUURQzI8kKyKu7sk7CFjtMEUpGodtJUmdlzZB5Nz+Z5Jsff1YylHOoGKmUKvpSedh4Kzx4SZmpCTLWeDo2OpusLc6id8PoU2SCXvCb+rhT88GhN79MUCwiCllYtxCSlqfP+wC/hIo2C2nWV8ExMkEvoPDnmr30poIJkE+yN/R8Kr6AUBOicsCow33TImtjQPNER0wqiXJvj6LQpJOVUHMuKemws+0Vrvs6ujxVdk1Zeq/hbuqSE2yZB/dcL25U1U1a5ebJNPdmXZTB0uhOlZs62xVefB0WHJA2dW6go5pAb1VD7Bx77yKh2WifigTk7EAnLEXuur4YUc9IdZPyuYLOKpaPW0M4GdU9X7gGzcOqa8feHIpM7zGve3DIjrPT2kDzOsPg2AJ8QeM154Tp823FSVP1oDVFnakjb74X8jBhXs49enHOUQe/uNiRV/MdsDPmzdzLa+1ocg6aCvCJ4Ra3dQxMn3FBASuEd0ybuZfPLiGO5ivdEd3q1mFT20EeSvIvdF53Y2QloOkiuUeNXTS4MMi8rSGr25srzQzpluYaubTt2RrIOBkP6wrpagGNC6dqd9FzTJ2goYXPf2l3EJD7TemlvqoQciwyxpBlbU/wNwvS0m3Jzx5Q2MjT7EZBturReNvqdFcDGSetjtDNgGD9Sy0Dg33tt1jTQNmBget+stM+bRpkax7NtRH+nYdbJsijXLPhdUxmZLIR5++B1+WGpUCZty/g3y7y8K5pdmUTMpvk8tqGFrKIRvp0++t+VylQh4tRW0qK5k2Y9JyA1kA2JSU7kAVw9Ow1S5mv1f59LAl5+huXDeeNAG0IpTLNrb0XsgCO758r1mjDd2e5aoxsLGgD5LyDUzaan9TPQfAz9cqtbQsy6u2e/uRYXbi1bUFmHuhhnwK6CGRvJ4IuA9mwIWjkuvn81YP2kCsA7SFXANpDdgs69ZCtWShB58kAbhafeMinG+3s4qAzzAyxVhDgvjkP2QrkSFPrSRA0bojZ2oJMm/Ev9ZfGbpR+r/isZVOT9/y8wiXby08l5ZOh/L27hYdsDzKPOoaiNjGVtQkPuZQh3A7fF9MqAvIA5H3LSxdnpl1drQJei11Gtz66OM1aBXVYeciWQR+A7SHbBG2A7SG7AC1gLzxkb6/C3gswAP4R4hKyabwmAAAAAElFTkSuQmCCyys9464HAAA=</data>
+        <length>2640</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="f2a59b4e13c97600a79f73304244b0a0">f2a59b4e13c97600a79f73304244b0a0</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-21 19:46:52</sys_created_on>
+        <sys_id>b6a59b4e13c97600a79f73304244b0a0</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#0</average_image_color>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>picture</file_name>
+        <image_height>90</image_height>
+        <image_width>90</image_width>
+        <size_bytes>1966</size_bytes>
+        <size_compressed>1989</size_compressed>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-21 19:46:44</sys_created_on>
+        <sys_id>c1a5174e13c97600a79f73304244b02f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-21 19:46:45</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>f3841b0e13c97600a79f73304244b03a</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="c1a5174e13c97600a79f73304244b02f">c1a5174e13c97600a79f73304244b02f</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-21 19:46:44</sys_created_on>
+        <sys_id>c9a5174e13c97600a79f73304244b02f</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2640</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="c1a5174e13c97600a79f73304244b02f">c1a5174e13c97600a79f73304244b02f</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-21 19:46:44</sys_created_on>
+        <sys_id>c9a59b4e13c97600a79f73304244b080</sys_id>
+    </sys_attachment_doc>
+</record_update>

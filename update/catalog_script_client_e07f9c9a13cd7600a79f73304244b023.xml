@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>true</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Certificate of Analysis ">f3841b0e13c97600a79f73304244b03a</cat_item>
+        <cat_variable>IO:455caf8e130d7600a79f73304244b024</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <messages/>
+        <name>Auto-Populate PO Information</name>
+        <order>200</order>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+	if (isLoading)
+		return;
+	if (newValue == '') {
+		g_form.setValue('shipped_from', '');
+		g_form.setValue('invoice', '');
+		return;
+	}
+	if (!g_form.getControl('shipped_from'))
+		return;
+	if (g_form.getValue('customer') =='') {
+		var po1 = g_form.getReference('po_number', setCustomer);
+	}
+	var po = g_form.getReference('po_number', setPO); return;
+}
+function setPO(po) {
+	if (po)
+		g_form.setValue('shipped_from', po.source_plant  );
+		if (g_form.getValue('invoice') =='') {g_form.setValue('invoice', po.invoice);}
+
+}
+function setCustomer(po1) {
+	if (po1)
+		g_form.setValue('customer', po1.customer  );
+
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-22 01:13:53</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e07f9c9a13cd7600a79f73304244b023</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Auto-Populate PO Information</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Quality Management" source="x_snc_qms">c82fc34213c97600a79f73304244b0f9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Quality Management">c82fc34213c97600a79f73304244b0f9</sys_scope>
+        <sys_update_name>catalog_script_client_e07f9c9a13cd7600a79f73304244b023</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-22 02:09:05</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+</record_update>

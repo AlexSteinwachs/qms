@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="ERP Purchase Order" max_length="40" name="x_snc_qms_erp_po" type="collection">
+        <element label="Customer" max_length="32" name="customer" reference="core_company" reference_qual="customer=true^EQ" reference_qual_condition="customer=true^EQ" type="reference"/>
+        <element label="Invoice" max_length="32" name="invoice" reference="x_snc_qms_erp_invoice" type="reference"/>
+        <element display="true" label="PO Number" max_length="32" name="po_number" type="string"/>
+        <element label="Source Plant" max_length="32" name="source_plant" reference="cmn_location" type="reference"/>
+        <index name="index">
+            <element name="source_plant"/>
+        </index>
+        <index name="index2">
+            <element name="invoice"/>
+        </index>
+        <index name="index3">
+            <element name="customer"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_both</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Default Category">9d8fc70613c97600a79f73304244b06c</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[A Certificate of Analysis refers to an authenticated document that is issued by Illumina's Quality Assurance
+Department that ascertains that a product has met its predetermined product release specification(s) and quality.]]></description>
+        <entitlement_script/>
+        <group/>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model display_value="Certificate of Analysis">d91ebc561341b600a79f73304244b05a</model>
+        <name>Certificate of Analysis</name>
+        <no_cart>false</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("./com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=151ebc561341b600a79f73304244b05b&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <roles>snc_internal</roles>
+        <sc_catalogs>898fc70613c97600a79f73304244b064</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script><![CDATA[(new global.SMTemplates()).newFromCatalogItem(current, gs, '898fc70613c97600a79f73304244b064', 
+'The Quality Management department has been contacted regarding your request<br/>The \'Self Service - My Requests\' module provides access to this, and all of your other open requests<br/>', producer);]]></script>
+        <short_description>Review complain and generate a Certificate of Analysis</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-22 03:23:03</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>151ebc561341b600a79f73304244b05b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Certificate of Analysis</sys_name>
+        <sys_package display_value="Quality Management" source="x_snc_qms">c82fc34213c97600a79f73304244b0f9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Quality Management">c82fc34213c97600a79f73304244b0f9</sys_scope>
+        <sys_update_name>sc_cat_item_producer_151ebc561341b600a79f73304244b05b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-22 03:23:03</sys_updated_on>
+        <table_name>x_snc_quality_management_request</table_name>
+        <template/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=151ebc561341b600a79f73304244b05b"/>
+    <fx_price action="delete_multiple" query="id=151ebc561341b600a79f73304244b05b"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>151ebc561341b600a79f73304244b05b</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-22 03:23:03</sys_created_on>
+        <sys_id>551ebc561341b600a79f73304244b05d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-22 03:23:03</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>151ebc561341b600a79f73304244b05b</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-22 03:23:03</sys_created_on>
+        <sys_id>191ebc561341b600a79f73304244b05e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-22 03:23:03</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>
